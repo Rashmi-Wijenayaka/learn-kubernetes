@@ -6,3 +6,4 @@
 ### A cluster is a set of grouped works together.
 ### The master watches over the nodes in the cluster and is responsible for the actual orcherstration of containers on the worker node. 
 ### The containers are encapsulated into a kubernetes object known as pods. It is the smallest object in kubernetes. Pods have a one to one relationship with containers. But a single pod can have multiple containers. They are usually not multiple containers of same kind.
+### The replication controller can help by automatically bringing up new pod when the existing one fails. The replication controller ensures that the specify number of pods are running at all time. And also we need replication controllers to create multiple pods to share the load across them.
