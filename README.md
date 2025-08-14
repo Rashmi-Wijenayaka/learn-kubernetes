@@ -9,3 +9,5 @@
 ### The replication controller can help by automatically bringing up new pod when the existing one fails. The replication controller ensures that the specify number of pods are running at all time. And also we need replication controllers to create multiple pods to share the load across them.
 ### The role of the replicaset is to monitor the pods and any of them were to fail, deploy new ones.
 ### The deployment provides us with the capability to upgrade the underlying instances seamlessly using rolling updates, undo changes, and pause, and resume changes as required.
+### One of the usecase  of kubernetes service is to listen to a port on the node and forward request on that port to a port on the pod running the web application. This type of service known as node port service.
+### The service creates a virtual ip inside the cluster to enable communication between different services. This known as cluster ip. 
